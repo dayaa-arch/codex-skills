@@ -48,6 +48,7 @@ description: "既存のGitHub Pull Requestを既定ブランチ（通常main）�
 - `gh pr view`でPRがMergedであり、マージcommitと時刻を確認する。
 - ローカルの既定ブランチへ切り替え、`git pull --ff-only`でリモートの`main`を反映する。
 - `git branch --list <head>`と`git ls-remote --heads origin <head>`で、ローカル・リモート双方の作業ブランチが削除されたことを確認する。
+- `--delete-branch`の後もローカル作業ブランチが残る場合は、既定ブランチへ切り替えた状態で`git branch -d <head>`を実行する。マージ済み確認後の安全な削除だけを行い、`git branch -D`は使用しない。
 - Pull Request URL、マージcommit、削除したブランチ、実行したチェック結果を簡潔に報告する。
 
 ## 停止条件
