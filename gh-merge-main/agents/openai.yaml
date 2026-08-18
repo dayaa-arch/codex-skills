@@ -1,4 +1,4 @@
 interface:
-  display_name: "PRをmainへマージ"
-  short_description: "PRを安全にmainへマージし作業ブランチを削除する"
-  default_prompt: "$gh-merge-main を使い、このPull Requestをmainへマージして作業ブランチを削除してください。"
+  display_name: "変更をPR化してmainへマージ"
+  short_description: "変更をcommit・PR化しmainへマージしてブランチを削除"
+  default_prompt: "$gh-merge-main を使い、この変更をcommit・pushしてPull Requestを作成し、mainへのマージと作業ブランチ削除まで行ってください。"
