@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian会話ログ"
+  short_description: "Codexの作業サマリをObsidianへ保存する"
+  default_prompt: "$obsidian-log を使い、現在のCodexタスクを構造化してObsidianのAI Logへ保存してください。"
